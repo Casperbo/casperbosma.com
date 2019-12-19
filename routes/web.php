@@ -12,5 +12,25 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('home');
+});
+
+Route::get('/home', function () {
+   return view('home');
+});
+
+Route::get('/clickets', function () {
+   return view('clickets');
+});
+
+Route::get('/contact', function () {
+   return view('contact');
+});
+
+Route::get('/casperbosma', function () {
+   return view('casperbosma');
+});
+
+Route::get('/test', function () {
+   return view('test');
 });
