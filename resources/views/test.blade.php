@@ -1,4 +1,4 @@
-@extends('layout.portfoliolayout')
+@extends('layouts.portfoliolayout')
 @section('content')
   <div class="headertest">
       <h1>Casper Bosma</h1>

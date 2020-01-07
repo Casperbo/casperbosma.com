@@ -11,26 +11,18 @@
 |
 */
 
-Route::get('/', function () {
-    return view('home');
-});
+Route::get('/', 'HomeController@index')->name('home');
 
-Route::get('/home', function () {
-   return view('home');
-});
+Route::get('/home', 'HomeController@index')->name('home');
 
-Route::get('/clickets', function () {
-   return view('clickets');
-});
+Route::get('/clickets', 'HomeController@clickets')->name('clickets');
 
-Route::get('/contact', function () {
-   return view('contact');
-});
+Route::get('/casperbosma', 'HomeController@casperbosma')->name('casperbosma');
 
-Route::get('/casperbosma', function () {
-   return view('casperbosma');
-});
+Route::get('/test', 'HomeController@test')->name('test');
 
-Route::get('/test', function () {
-   return view('test');
-});
+Auth::routes();
+
+/*Route::get('/account', 'AccountController@account')->name('account');*/
+
+Route::resource('account', 'ReviewController');

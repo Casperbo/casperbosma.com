@@ -11,26 +11,15 @@
 |
 */
 
-Route::get('/', function () {
-    return view('home');
-});
-
-Route::get('/home', function () {
-   return view('home');
-});
-
-Route::get('/clickets', function () {
-   return view('clickets');
-});
-
-Route::get('/contact', function () {
-   return view('contact');
-});
-
-Route::get('/casperbosma', function () {
-   return view('casperbosma');
-});
-
-Route::get('/test', function () {
-   return view('test');
-});
+Route::get('/', 'HomeController@index')->name('home');
+Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/clickets', 'HomeController@clickets')->name('clickets');
+Route::get('/casperbosma', 'HomeController@casperbosma')->name('casperbosma');
+Route::get('/test', 'HomeController@test')->name('test');
+Auth::routes();
+/*Route::get('/account', 'AccountController@account')->name('account');*/
+Route::resource('account', 'ReviewController');
+Route::get('contact-us', 'ContactUSController@contactUS');
+Route::post('contact-us', ['as'=>'contactus.store','uses'=>'ContactUSController@contactUSPost']);
+Route::get('password/reset/{token}', 'Auth\ResetPasswordController@showResetForm')->name('password.reset');
+Route::resource('edit-profile', 'EditProfileController');

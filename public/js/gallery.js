@@ -1,4 +1,4 @@
-$(document).ready(function(){
+$(document).ready(function($){
 $('.image-popup-vertical-fit').magnificPopup({
 	type: 'image',
   mainClass: 'mfp-with-zoom', 
