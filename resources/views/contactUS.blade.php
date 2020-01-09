@@ -14,13 +14,13 @@
 
 <div class="form-group {{ $errors->has('name') ? 'has-error' : '' }}">
 {!! Form::label('Your name:') !!}
-{!! Form::text('name', old('name'), ['class'=>'form-control', 'placeholder'=>'Enter Name']) !!}
+{!! Form::text('name', old('name'), ['class'=>'form-control', 'placeholder'=>'Enter Name', 'maxlength'=>'40']) !!}
 <span class="text-danger">{{ $errors->first('name') }}</span>
 </div>
 
 <div class="form-group {{ $errors->has('email') ? 'has-error' : '' }}">
 {!! Form::label('Your email:') !!}
-{!! Form::text('email', old('email'), ['class'=>'form-control', 'placeholder'=>'Enter Email']) !!}
+{!! Form::text('email', old('email'), ['class'=>'form-control', 'placeholder'=>'Enter Email', 'maxlength'=>'40']) !!}
 <span class="text-danger">{{ $errors->first('email') }}</span>
 </div>
 

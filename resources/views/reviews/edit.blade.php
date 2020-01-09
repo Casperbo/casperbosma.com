@@ -21,16 +21,16 @@
             <div class="form-group">
 
                 <label for="name">Name:</label>
-                <input type="text" class="form-control" name="name" value={{ $review->name }} />
+                <input type="text" class="form-control" name="name" maxlength = "40" value={{ $review->name }} />
             </div>
 
             <div class="form-group">
                 <label for="email">Email:</label>
-                <input type="text" class="form-control" name="email" value={{ $review->email }} />
+                <input type="text" class="form-control" name="email" maxlength = "40" value={{ $review->email }} />
             </div>
             <div class="form-group">
                 <label for="reviewtext">Review:</label>
-                <input type="text" class="form-control" name="reviewtext" value={{ $review->reviewtext }} />
+                <input type="text" class="form-control" name="reviewtext" maxlength = "60" value={{ $review->reviewtext }} />
             </div>
             <button type="submit" class="dashboard-buttons slide-right show-on-scroll">Update</button>
         </form>

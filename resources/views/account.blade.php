@@ -48,30 +48,44 @@
     <thead>
         <tr>
           <td>Name</td>
+          <td></td>
           <td>Review</td>
         </tr>
     </thead>
     <tbody>
         @foreach($reviews as $review)
         <tr>
-            <td>{{$review->name}}</td>
+            <td>
+            {{$review->name}}
+            <td>
+                  @if(auth()->user()->id == $review->userid)
+                
+              <div class="nav-item dropdown">
+                                <a id="navbarDropdown" class="nav-link text-blue delete-arrow" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
+                                 <span class="caret"></span>
+                                </a>
+
+                                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                                    <a href="{{ route('account.edit',$review->id)}}" class="dropdown-item">Edit</a>
+
+                                    <form action="{{ route('account.destroy', $review->id)}}" method="post">
+                 		    @csrf
+                  		    @method('DELETE')
+                  		   <button class="dropdown-item" type="submit">Delete</button>
+               			    </form>
+                                       
+                                  
+                                </div>
+                            </div>
+            
+               
+        @endif
+               </td>
             <td>{{$review->reviewtext}}</td>
             
-            
+            </tr>
            
-        @if(auth()->user()->id == $review->userid)
-           <td>
-                <a href="{{ route('account.edit',$review->id)}}" class="btn btn-primary">Edit</a>
-            </td>
-            <td>
-                <form action="{{ route('account.destroy', $review->id)}}" method="post">
-                  @csrf
-                  @method('DELETE')
-                  <button class="btn btn-danger" type="submit">Delete</button>
-                </form>
-            </td>
-        </tr>
-        @endif
+      
         
         @endforeach
     </tbody>

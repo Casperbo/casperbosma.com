@@ -1,4 +1,4 @@
-// Detect request animation frame
+
 var scroll2 = window.requestAnimationFrame ||
              // IE Fallback
              function(callback){ window.setTimeout(callback, 1000/60)};
@@ -15,7 +15,7 @@ function loop2() {
     scroll2(loop2);
 }
 
-// Call the loop for the first time
+
 loop2();
 
 // Helper function from: http://stackoverflow.com/a/7557433/274826

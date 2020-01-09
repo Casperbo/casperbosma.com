@@ -8,10 +8,9 @@
  <body id="page-top">
      <div class="page-container">
    <div class="content-wrap">
-@include('layouts.partials.nav-login')
+@include('dutch.layouts.partials.nav')
 @yield('content')
-@yield('main')
-@include('layouts.partials.footer')
+@include('dutch.layouts.partials.footer')
 @include('layouts.partials.footer-scripts')
          </div></div>
      <div id="cookie"></div>

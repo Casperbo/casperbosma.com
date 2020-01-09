@@ -9,8 +9,8 @@ $('.image-popup-vertical-fit').magnificPopup({
   zoom: {
     enabled: true, 
 
-    duration: 300, // duration of the effect, in milliseconds
-    easing: 'ease-in-out', // CSS transition easing function
+    duration: 300, 
+    easing: 'ease-in-out',
 
     opener: function(openerElement) {
 

@@ -58,9 +58,6 @@
 
          @endguest
 
-         <li class="nav-item">
-           <a class="nav-link js-scroll-trigger menutext home-nl-button" href="/dutch/home"></a>
-         </li>
 
        </ul>
      </div>
@@ -70,6 +67,7 @@
 
  <!-- The overlay -->
  <div id="myNav" class="overlay">
+
 
    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 
@@ -113,10 +111,10 @@
 
      @endguest
 
-     <a class="nav-link js-scroll-trigger menutext home-nl-button" href="/dutch/home"></a>
 
    </div>
 
  </div>
+
 
  <div class="responsivemenubutton" onclick="openNav()"></div>

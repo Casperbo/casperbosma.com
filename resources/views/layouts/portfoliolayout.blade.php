@@ -13,5 +13,6 @@
 @include('layouts.partials.footer')
 @include('layouts.partials.footer-scripts')
          </div></div>
+     <div id="cookie"></div>
  </body>
 </html>

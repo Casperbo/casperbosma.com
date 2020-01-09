@@ -1,4 +1,4 @@
-@extends('layouts.mainlayout')
+@extends('dutch.layouts.mainlayout')
 @section('content')
 <div class="wrapper-parallax">
   <!-- Masthead -->
@@ -13,36 +13,35 @@
         </div>
         <div class="col-lg-8 align-self-baseline" id="preload-waiter4">
           <hr class="divider my-4">
-          <p class="text-white-75 font-weight-light mb-5">Always looking for new and creative ways to build websites.</p>
-          <a class="dashboard-buttons" onclick="scrollToBottom()">Find Out More</a>
+          <p class="text-white-75 font-weight-light mb-5">Altijd op zoek naar nieuwe en creatieve manieren om websites te bouwen.</p>
+          <a class="dashboard-buttons" onclick="scrollToBottom()">Kijk verder</a>
         </div>
       </div>
     </div>
 
 
   </header>
-
-  <!-- About Section -->
   <div class="content">
+    <!-- About Section -->
     <section class="page-section bg-primary slide-up show-on-scroll" id="about">
       <div class="container">
         <div class="row">
           <div class="col-sm">
             <div class="foto_container">
-              <h1 class="textaboutme slide-left show-on-scroll">About me</h1>
+              <h1 class="textaboutme slide-left show-on-scroll">Over mij</h1>
               <div class="circelfoto slide-left show-on-scroll"></div>
             </div>
           </div>
           <div class="col-sm slide-up show-on-scroll">
             <div class="aboutme_divider slide-up show-on-scroll"></div>
-            <a class="btn btn-light btn-xl hideonmobile slide-up show-on-scroll" onclick="scrollToBottom2()">Skill set</a>
+            <a class="btn btn-light btn-xl hideonmobile slide-up show-on-scroll" onclick="scrollToBottom2()">Vaardigheden</a>
           </div>
           <div class="col-sm">
             <div class="tekstvak_aboutme">
-              <p class="slide-right show-on-scroll">Welcome to my portfolio!</p>
-              <p class="slide-right show-on-scroll">My name is Casper and I've been studying to become a web designer and developer the past few years.</p>
-              <p class="slide-right show-on-scroll">My main focus is on front end but creating a website from nothing to finished product is something I'm really passionate about.</p>
-              <p class="slide-right show-on-scroll"> I Really enjoy making a good-looking design and then code it into a appealing website. Realizing my creation and perfecting it.</p>
+              <p class="slide-right show-on-scroll">Welkom in mijn portfolio!</p>
+              <p class="slide-right show-on-scroll">Mijn naam is Casper en ik heb de afgelopen jaren gestudeerd om een ​​webdesigner en -ontwikkelaar te worden.</p>
+              <p class="slide-right show-on-scroll">Mijn belangrijkste focus ligt op het uiterlijk, maar het creëren van een website van niets tot eindproduct is iets waar ik erg gepassioneerd over ben.</p>
+              <p class="slide-right show-on-scroll"> Ik geniet er echt van om een mooi ontwerp te maken en het vervolgens te coderen tot een aantrekkelijke website. Mijn creatie realiseren en perfectioneren.</p>
             </div>
           </div>
         </div>
@@ -52,7 +51,7 @@
     <!-- Skills Section -->
     <section class="page-section" id="skills">
       <div class="container skillcontainer">
-        <h2 class="text-center mt-0 slide-up show-on-scroll">Skills</h2>
+        <h2 class="text-center mt-0 slide-up show-on-scroll">Vaardigheden</h2>
         <hr class="divider my-4 slide-right show-on-scroll">
         <div class="container">
           <div class="row">
@@ -68,7 +67,7 @@
               <p class="js-scroll slide-up show-on-scroll">Javascript</p>
             </div>
             <div class="col-sm">
-              <div class="progress-bar bar7 show-on-scroll" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="70">
+              <div class="progress-bar bar7 show-on-scroll" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
                 70%
               </div>
             </div>
@@ -133,27 +132,27 @@
             <div class="row skilltextrow">
               <div class="col-sm slide-up show-on-scroll delay1">
                 <img class="skill-icons" src="/public/images/creativity.png" alt="Creativity">
-                <p>Design</p>
+                <p>Ontwerp</p>
                 <p>
-                  Since I started out on Grafisch lyceum in Rotterdam I've got a background in graphic design and basic knowledge of the adobe programs. I love pairing this creativity with web development to get amazing results.</p>
+                  Sinds ik begon op het Grafisch lyceum in Rotterdam heb ik een achtergrond in grafisch ontwerp en basiskennis van de Adobe-programma's. Ik ben dol op het combineren van deze creativiteit met webontwikkeling om verbluffende resultaten te krijgen.</p>
               </div>
               <div class="col-sm slide-up show-on-scroll delay2">
                 <img class="skill-icons" src="/public/images/data.png" alt="Creativity">
                 <p>
-                  Development</p>
+                  Ontwikkeling</p>
                 <p>
-                  I've always liked to actually code a website too instead of just design it. I really enjoy puzzling with the code while making a beatiful product.</p>
+                  Ik heb het altijd leuk gevonden om een ​​website ook daadwerkelijk te coderen in plaats van deze alleen te ontwerpen. Ik geniet echt van puzzelen met de code terwijl ik een mooi product maak.</p>
               </div>
               <div class="col-sm slide-up show-on-scroll delay3">
                 <img class="skill-icons" src="/public/images/thought.png" alt="Creativity">
                 <p>
-                  Knowledge</p>
+                  Kennis</p>
                 <p>
-                  I'm best at HTML and CSS but I know my way around with PHP. Always learning new things. Lately I've mostly been working on effects and animations in CSS with a little bit of javascript.</p>
+                  Ik ben het beste in HTML en CSS maar PHP en javascript kan ik ook. Altijd bezig met nieuwe dingen leren. De laatste tijd werk ik meestal aan effecten en animaties in CSS met een beetje javascript.</p>
               </div>
             </div>
             <div class="row">
-              <a class="dashboard-buttons slide-up show-on-scroll delay1" onclick="scrollToBottom3()">My work</a>
+              <a class="dashboard-buttons slide-up show-on-scroll delay1 is-visible" onclick="scrollToBottom3()">Mijn werk</a>
             </div>
           </div>
         </div>
@@ -162,12 +161,12 @@
 
 
 
-    <!-- Portfolio Section -->
+    <!-- Call to Action Section -->
     <div class="slide-up show-on-scroll">
       <section id="portfolio" class="page-section bg-dark text-white">
         <h2 class="slide-up show-on-scroll">Portfolio</h2>
         <hr class="divider-portfolio my-4 slide-right show-on-scroll">
-        <p class="slide-up show-on-scroll">Click for more info</p>
+        <p class="slide-up show-on-scroll">Klik voor meer info</p>
         <p class="slide-up show-on-scroll">&#x2B07;</p>
         <div class="container portocontainer">
           <div class="row">
@@ -178,9 +177,9 @@
                   </div>
                   <div class="back">
                     <h2>Clickets</h2>
-                    <p>A school project.</p>
-                    <p>In this project we had to make a website with login system and several lists and roles. Didn't have to do anything about the front-end though.</p>
-                    <a href="/clickets" class="btn btn-xl btn-primary">Read more</a>
+                    <p>Een school project.</p>
+                    <p>In dit project moesten we een website maken met een login-systeem en verschillende lijsten en rollen. Ik hoefde echter niets aan het uiterlijk te doen.</p>
+                    <a href="/dutch/clickets" class="btn btn-xl btn-primary">Lees verder</a>
                   </div>
                 </div>
               </div>
@@ -193,9 +192,9 @@
                   </div>
                   <div class="back">
                     <h2>Casperbosma.com</h2>
-                    <p>My portfolio website.</p>
-                    <p>I started creating this website cause I really needed a new portfolio and CV. Now I just love to work on it and improve it.</p>
-                    <a href="/casperbosma" class="btn btn-xl btn-primary">Read more</a>
+                    <p>Mijn portfoliowebsite.</p>
+                    <p>Ik ben begonnen met het maken van deze website omdat ik echt een nieuw portfolio en CV nodig had. Nu hou ik er gewoon van om eraan te werken en het te verbeteren.</p>
+                    <a href="/dutch/casperbosma" class="btn btn-xl btn-primary">Lees verder</a>
                   </div>
                 </div>
               </div>
@@ -207,14 +206,14 @@
 
                   </div>
                   <div class="back">
-                    <h2 class="uc">Room for more.</h2>
+                    <h2 class="uc">Ruimte voor meer.</h2>
                   </div>
                 </div>
               </div>
             </div>
           </div>
           <div class="row justify-content-center">
-            <a class="btn black btn-light margin-top btn-xl hideonmobile slide-up show-on-scroll is-visible" onclick="scrollToBottom4()">Say hi</a>
+            <a class="btn black btn-light margin-top btn-xl hideonmobile slide-up show-on-scroll is-visible" onclick="scrollToBottom4()">Contact info</a>
           </div>
         </div>
 
@@ -227,7 +226,7 @@
           <div class="col-lg-8 text-center">
             <h2 class="mt-0 slide-up show-on-scroll">Contact</h2>
             <hr class="divider my-4 slide-right show-on-scroll">
-            <p class="text-muted mb-5 slide-up show-on-scroll">Interested? Send an e-mail or call me!</p>
+            <p class="text-muted mb-5 slide-up show-on-scroll">Geïnteresseerd? Stuur een e-mail of bel me!</p>
           </div>
         </div>
         <div class="row">
@@ -240,13 +239,14 @@
             <a class="d-block slide-right show-on-scroll" href="mailto:casperbosma@gmail.com">casperbosma@gmail.com</a>
           </div>
         </div>
-        <a class="btn btn-primary btn-xl margingtop1em slide-up show-on-scroll" href="/contact-us">Chat now!</a>
+        <a class="btn btn-primary btn-xl margingtop1em slide-up show-on-scroll" href="/contact-us">Chat nu!</a>
       </div>
-      <!--Footer section-->
+
     </section>
     <footer class="bg-light py-5 footerbar">
       <div class="container">
-        <div class="small text-center">Casper Bosma Copyright &copy; 2019 - 2020. All rights reserved</div>
+        <div class="small text-center">Casper Bosma Copyright &copy; 2019 - 2020. Alle rechten voorbehouden</div>
+          <div>Icons gemaakt door <a href="https://www.flaticon.com/authors/freepik" title="freepik">freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
       </div>
     </footer>
   </div>

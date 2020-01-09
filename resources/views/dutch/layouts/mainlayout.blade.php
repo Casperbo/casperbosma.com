@@ -3,12 +3,14 @@
  <head>
      <link rel="icon" href="/public/images/trees.png" type="image/x-icon"/>
      <link rel="shortcut icon" href="/public/images/trees.png" type="image/x-icon"/>
-   @include('head')
+   @include('layouts.partials.head')
  </head>
  <body id="page-top">
-@include('nav')
+     <div class="page-container">
+@include('dutch.layouts.partials.nav')
 @yield('content')
-@include('footer')
-@include('footer-scripts-local')
+@include('layouts.partials.footer-scripts-home')
+         </div>
+    <div id="cookie"></div>
  </body>
 </html>

@@ -1,4 +1,4 @@
-@extends('layouts.portfoliolayout')
+@extends('dutch.layouts.portfoliolayout')
 @section('content')
 <!-- Masthead 
   <header class="masthead casperbosmaheader">
@@ -19,23 +19,22 @@
   <div class="container">
     <h1 class="text-white font-weight-bold slide-right show-on-scroll">Casperbosma.com</h1>
     <hr class="divider-portfolio my-4 slide-right show-on-scroll">
-    <p class="slide-up show-on-scroll">How and why I created this website.</p>
+    <p class="slide-up show-on-scroll">Hoe en waarom ik deze website heb gemaakt.</p>
     <p>
       <section class="img-gallery-magnific casperbosma-gallery">
-
-
         <!--extra
 			<div class="magnific-img">
-				<a class="image-popup-vertical-fit" href="../images/clickets4.jpg" title="4.jpg">
-					<img src="../images/clickets4.jpg" alt="4.jpg" />
+				<a class="image-popup-vertical-fit" href="../images/clickets2.jpg" title="10.jpg">
+					<img src="../images/clickets2.jpg" alt="10.jpg" />
 					<i class="fa fa-search-plus" aria-hidden="true"></i>
 				</a>
 			</div>
 			<div class="magnific-img">
-				<a class="image-popup-vertical-fit" href="../images/clickets5.jpg" title="1.jpg">
-					<img src="../images/clickets5.jpg" alt="1.jpg" />
+				<a class="image-popup-vertical-fit" href="../images/clickets3.jpg" title="3.jpg">
+					<img src="../images/clickets3.jpg" />
 					<i class="fa fa-search-plus" aria-hidden="true"></i>
 				</a>
+			</div>
 			</div>-->
         <div class="magnific-img js-scroll show-on-scroll-once delay1">
           <a class="image-popup-vertical-fit" href="/public/images/schets.png" title="3.jpg">
@@ -57,23 +56,22 @@
         </div>
       </section>
   </div>
-
   <div class="clear"></div>
 
 </div>
 <!--project info-->
 <div id="about" class="container clicketscontainer">
-  <h2 class="slide-right show-on-scroll">Some info about the site:</h2>
+  <h2 class="slide-right show-on-scroll">Wat info over de site:</h2>
   <hr class="divider my-4 slide-right show-on-scroll is-visible">
-  <p class="slide-up show-on-scroll">The main reason why I started creating this website is cause I needed a CV and portfolio and thought this was a great way of combining both. I've really enjoyed creating my own website so far. Gives me allot of opportunities to be creative and try out new things.</p>
+  <p class="slide-up show-on-scroll">De belangrijkste reden waarom ik ben begonnen met het maken van deze website is omdat ik een CV en portfolio nodig had en dacht dat dit een geweldige manier was om beide te combineren. Ik heb tot nu toe echt genoten van het maken van mijn eigen website. Geeft me veel kansen om creatief te zijn en nieuwe dingen uit te proberen.</p>
   <p class="slide-up show-on-scroll">
-    I started with making designs in photoshop of the website so I had a rough idea of what I wanted. Made a few variations of the design so I could pick what I liked best.</p>
+    Ik begon met het maken van ontwerpen in photoshop van de website, dus ik had een ruw idee van wat ik wilde. Een paar variaties van het ontwerp gemaakt zodat ik kon kiezen wat ik het leukste vond.</p>
   <p class="slide-up show-on-scroll">
-    When I started coding the website things turned out a little different cause I got new and better ideas while programming and wanted to apply those. What I liked most was creating the effects in CSS and javascript that make the page look amazing.</p>
-  <p class="slide-up show-on-scroll">When I got the basic layout down I started working on a login system with some lists that got remove/edit functions that are linked to a database, it's got security too so you're only able to edit your own info. it also got an e-mail form to make it a bit fancier and show i'm able to do that too.</p>
-  <p class="slide-up show-on-scroll">In the end I just really enjoyed tweaking the layout till its perfect</p>
+    Toen ik begon met het coderen van de website, bleek het een beetje anders, want ik kreeg nieuwe en betere ideeën tijdens het programmeren en wilde die toepassen. Wat ik het leukste vond, was het maken van de effecten in CSS en javascript waardoor de pagina er fantastisch uitziet.</p>
+  <p class="slide-up show-on-scroll">Toen ik de basislay-out af had begon ik te werken aan een inlogsysteem met twee lijsten met verwijder- / bewerkingsfuncties die zijn gekoppeld aan een database, het heeft ook beveiliging, dus je kunt alleen je eigen info bewerken. Het heeft ook een e-mail vorm om het wat netter te maken en te laten zien dat ik dat ook kan.</p>
+  <p class="slide-up show-on-scroll">Uiteindelijk heb ik erg genoten van het aanpassen van de lay-out tot deze perfect is</p>
   <p class="slide-up show-on-scroll">
-    This page has been made in Laravel.</p>
+    Deze pagina is gemaakt in Laravel.</p>
 
 </div>
 @endsection

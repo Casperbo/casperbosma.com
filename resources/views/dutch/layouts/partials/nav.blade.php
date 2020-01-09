@@ -1,5 +1,5 @@
  <div id="loader-wrapper">
-   <h2 id="hide" class="loader-text">Loading</h2>
+   <h2 id="hide" class="loader-text">Aan het laden.</h2>
    <div id="loader"></div>
    <div class="loader-section section-left"></div>
    <div class="loader-section section-right"></div>
@@ -7,7 +7,7 @@
 
  <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
    <div class="container">
-     <a class="navbar-brand js-scroll-trigger menutext" href="/">Casper Bosma</a>
+     <a class="navbar-brand js-scroll-trigger menutext" href="/dutch/">Casper Bosma</a>
      <div class="logo"></div>
      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
        <span class="navbar-toggler-icon"></span>
@@ -15,24 +15,24 @@
      <div class="collapse navbar-collapse" id="navbarResponsive">
        <ul class="navbar-nav ml-auto my-2 my-lg-0">
          <li class="nav-item">
-           <a class="nav-link js-scroll-trigger menutext" href="/#about">About me</a>
+           <a class="nav-link js-scroll-trigger menutext" href="/dutch/#about">Over mij</a>
          </li>
          <li class="nav-item">
-           <a class="nav-link js-scroll-trigger menutext" href="/#skills">Skills</a>
+           <a class="nav-link js-scroll-trigger menutext" href="/dutch/#skills">Vaardigheden</a>
          </li>
          <li class="nav-item">
-           <a class="nav-link js-scroll-trigger menutext" href="/#portfolio">Portfolio</a>
+           <a class="nav-link js-scroll-trigger menutext" href="/dutch/#portfolio">Portfolio</a>
          </li>
          <li class="nav-item">
-           <a class="nav-link js-scroll-trigger menutext" href="/#contact">Contact</a>
+           <a class="nav-link js-scroll-trigger menutext" href="/dutch/#contact">Contact</a>
          </li>
          @guest
          <li class="nav-item">
-           <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
+           <a class="nav-link" href="{{ route('login') }}">{{ __('Inloggen') }}</a>
          </li>
          @if (Route::has('register'))
          <li class="nav-item">
-           <a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a>
+           <a class="nav-link" href="{{ route('register') }}">{{ __('Registreer') }}</a>
          </li>
          @endif
          @else
@@ -44,7 +44,7 @@
            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
              <a class="dropdown-item" href="{{ route('logout') }}" onclick="event.preventDefault();
                                                      document.getElementById('logout-form').submit();">
-               {{ __('Logout') }}
+               {{ __('Log uit') }}
              </a>
 
              <a class="dropdown-item" href="/account">Account</a>
@@ -59,7 +59,7 @@
          @endguest
 
          <li class="nav-item">
-           <a class="nav-link js-scroll-trigger menutext home-nl-button" href="/dutch/home"></a>
+           <a class="nav-link js-scroll-trigger menutext home-UK-button" href="/home"></a>
          </li>
 
        </ul>
@@ -75,11 +75,11 @@
 
 
    <div class="overlay-content">
-     <a href="/">Home</a>
-     <a href="/#about" onclick="closeNav()">About me</a>
-     <a href="/#skills" onclick="closeNav()">Skills</a>
-     <a href="/#portfolio" onclick="closeNav()">Portfolio</a>
-     <a href="/#contact" onclick="closeNav()">Contact</a>
+     <a href="/dutch/home">Home</a>
+     <a href="/dutch/#about" onclick="closeNav()">About me</a>
+     <a href="/dutch/#skills" onclick="closeNav()">Skills</a>
+     <a href="/dutch/#portfolio" onclick="closeNav()">Portfolio</a>
+     <a href="/dutch/#contact" onclick="closeNav()">Contact</a>
 
      @guest
      <div class="nav-item">
@@ -113,7 +113,7 @@
 
      @endguest
 
-     <a class="nav-link js-scroll-trigger menutext home-nl-button" href="/dutch/home"></a>
+     <a class="nav-link js-scroll-trigger menutext home-UK-button" href="/"></a>
 
    </div>
 

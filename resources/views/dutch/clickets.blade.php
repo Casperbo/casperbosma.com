@@ -1,4 +1,4 @@
-@extends('layouts.portfoliolayout')
+@extends('dutch.layouts.portfoliolayout')
 @section('content')
 <!-- Masthead 
   <header class="masthead clicketsheader">
@@ -20,7 +20,7 @@
   <div class="container">
     <h2 class="text-white font-weight-bold slide-right show-on-scroll">Clickets.</h2>
     <hr class="divider-portfolio my-4 slide-right show-on-scroll is-visible">
-    <p class="slide-up show-on-scroll">A school project.</p>
+    <p class="slide-up show-on-scroll">Een school project.</p>
     <section class="img-gallery-magnific casperbosma-gallery">
 
 
@@ -62,24 +62,24 @@
 </div>
 <!--project info-->
 <div id="about" class="container clicketscontainer slide-up show-on-scroll">
-  <h2 class="text-center mt-0 slide-up show-on-scroll">Some info about the project:</h2>
+  <h2 class="text-center mt-0 slide-up show-on-scroll">Wat info over het project:</h2>
   <hr class="divider my-4 slide-right show-on-scroll">
-  <p class="slide-up show-on-scroll">Clickets was a school project where we had to make several lists of events, tickets, merchandise, etc. The lists had a search and several ways of sorting the lists. It has a login system and security. The 5 roles the website has are: guest, user, unverified company, verified company and admin.</p>
+  <p class="slide-up show-on-scroll">Clickets was een schoolproject waarbij we verschillende lijsten met evenementen, tickets, merchandise, etc. Moesten maken. De lijsten hadden een zoekopdracht en verschillende manieren om de lijsten te sorteren. Het heeft een inlogsysteem en beveiliging. De 5 rollen die de website heeft zijn: gast, gebruiker, niet-geverifieerd bedrijf, geverifieerd bedrijf en admin.</p>
   <p class="slide-up show-on-scroll">
-    A guest is able to register or look at the lists.</p>
+    Een gast kan zich registreren of de lijsten bekijken.</p>
   <p class="slide-up show-on-scroll">
-    A user is more like a costumer that has an account, is logged in and is able to look at the products that the companies post.</p>
+    Een gebruiker lijkt meer op een klant die een account heeft, is ingelogd en kan kijken naar de producten die de bedrijven posten.</p>
   <p class="slide-up show-on-scroll">
-    A unverified company isn't able to post any products untill it has been verified by an admin.</p>
+    Een niet-geverifieerd bedrijf kan geen producten posten totdat het door een beheerder is geverifieerd.</p>
   <p class="slide-up show-on-scroll">
-    A verified company is able to post/edit/delete products in the list for other users to see.</p>
+    Een geverifieerd bedrijf kan producten in de lijst plaatsen / bewerken / verwijderen zodat andere gebruikers deze kunnen zien.</p>
   <p class="slide-up show-on-scroll">
-    An admin is only able to log into the admin section of the website and is able to verify or decline the companies that are trying to get verified.</p>
+    Een beheerder kan alleen inloggen op het beheerdersgedeelte van de website en kan de bedrijven die proberen geverifieerd te worden, verifiëren of weigeren.</p>
   <p class="slide-up show-on-scroll">
-    NOTE: We were told to do nothing about to front-end this was purely a back-end project.</p>
+    OPMERKING: ons werd verteld niets te doen aan front-end dit was puur een back-end project.</p>
   <p class="slide-up show-on-scroll">
 
-    I've uploaded this project to github the link is posted bellow:</p>
+    Ik heb dit project geüpload naar github, de link is hieronder geplaatst:</p>
   <a target="_blank" href="https://github.com/Casperbo/Clickets" class="slide-up show-on-scroll">https://github.com/Casperbo/Clickets</a>
 
 </div>

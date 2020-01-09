@@ -9,7 +9,8 @@
      <div class="page-container">
 @include('layouts.partials.nav')
 @yield('content')
-@include('layouts.partials.footer-scripts')
-         </div></div>
+@include('layouts.partials.footer-scripts-home')
+         </div>
+    <div id="cookie"></div>
  </body>
 </html>
